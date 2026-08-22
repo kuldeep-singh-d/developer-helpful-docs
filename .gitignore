@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# VS Code local settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Local environment files
+.env
+.env.*
+
+# Python local virtual environments
+.venv/
+venv/
+
+# Local AI project instructions/context
+AGENTS.md
