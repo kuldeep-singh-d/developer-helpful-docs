@@ -13,36 +13,55 @@ The goal of this repository is to keep commonly used developer commands and trou
 Useful Android development, ADB, emulator, and troubleshooting references.
 
 - [Android Emulator Cleanup Commands](android/android-emulator-cleanup-commands.md)
+- [ADB Useful Commands](android/adb-useful-commands.md)
+- [Android Logcat Debugging](android/android-logcat-debugging.md)
+- [Android APK Installation Commands](android/android-apk-installation-commands.md)
+- [Gradle Cleanup and Troubleshooting](android/gradle-cleanup-and-troubleshooting.md)
 
 ### iOS
 
 Useful iOS Simulator, Xcode, CocoaPods, and troubleshooting references.
 
 - [iOS Simulator Cleanup Commands](ios/ios-simulator-cleanup-commands.md)
+- [Xcode Cleanup Commands](ios/xcode-cleanup-commands.md)
+- [CocoaPods Troubleshooting](ios/cocoapods-troubleshooting.md)
+- [iOS Device and Simulator Logs](ios/ios-device-and-simulator-logs.md)
 
 ### React Native
 
 React Native development, debugging, cache cleanup, build errors, and useful commands.
 
-> Documentation coming soon.
+- [React Native Cache Cleanup](react-native/react-native-cache-cleanup.md)
+- [React Native Debugging Guide](react-native/react-native-debugging-guide.md)
+- [Metro Bundler Commands](react-native/metro-bundler-commands.md)
+- [Common React Native Build Errors](react-native/common-build-errors.md)
 
 ### Git
 
 Common Git commands, undo operations, branch management, and everyday Git workflows.
 
-> Documentation coming soon.
+- [Git Common Commands](git/git-common-commands.md)
+- [Git Undo Commands](git/git-undo-commands.md)
 
 ### macOS
 
 Useful macOS terminal commands and developer environment references.
 
-> Documentation coming soon.
+- [macOS Developer Commands](macos/macos-developer-commands.md)
 
 ### VS Code
 
 Useful VS Code settings, shortcuts, extensions, and development tips.
 
-> Documentation coming soon.
+- [VS Code React Native Setup](vscode/vscode-react-native-setup.md)
+
+### GitHub
+
+- [GitHub Pull Request Workflow](github/github-pull-request-workflow.md)
+
+### Environment Setup
+
+- [React Native Development Environment on macOS](setup/react-native-development-environment-macos.md)
 
 ---
 
@@ -55,16 +74,32 @@ developer-helpful-docs/
 │
 ├── LICENSE
 │
+├── CONTRIBUTING.md
+│
+├── CODE_OF_CONDUCT.md
+│
+├── .gitignore
+│
+├── .github/
+│   └── pull_request_template.md
+│
 ├── android/
 │   ├── android-emulator-cleanup-commands.md
-│   └── adb-useful-commands.md
+│   ├── adb-useful-commands.md
+│   ├── android-logcat-debugging.md
+│   ├── android-apk-installation-commands.md
+│   └── gradle-cleanup-and-troubleshooting.md
 │
 ├── ios/
 │   ├── ios-simulator-cleanup-commands.md
-│   └── xcode-cleanup-commands.md
+│   ├── xcode-cleanup-commands.md
+│   ├── cocoapods-troubleshooting.md
+│   └── ios-device-and-simulator-logs.md
 │
 ├── react-native/
 │   ├── react-native-cache-cleanup.md
+│   ├── react-native-debugging-guide.md
+│   ├── metro-bundler-commands.md
 │   └── common-build-errors.md
 │
 ├── git/
@@ -74,11 +109,15 @@ developer-helpful-docs/
 ├── macos/
 │   └── macos-developer-commands.md
 │
-└── vscode/
-    └── vscode-useful-settings.md
+├── vscode/
+│   └── vscode-react-native-setup.md
+│
+├── github/
+│   └── github-pull-request-workflow.md
+│
+└── setup/
+    └── react-native-development-environment-macos.md
 ```
-
-Some files shown above may be added gradually as the repository grows.
 
 ---
 
@@ -263,6 +302,8 @@ If you find:
 - A common troubleshooting solution
 
 feel free to open an issue or submit a pull request.
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before preparing a contribution.
 
 Please keep contributions:
 
