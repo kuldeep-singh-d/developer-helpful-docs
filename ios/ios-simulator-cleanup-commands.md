@@ -215,7 +215,7 @@ xcrun simctl uninstall booted com.example.app
 Example:
 
 ```bash
-xcrun simctl uninstall booted com.ebn
+xcrun simctl uninstall booted com.example
 ```
 
 ### Use case
@@ -488,19 +488,19 @@ npx react-native start --reset-cache
 
 # Which command should I use?
 
-| Situation | Command |
-|---|---|
-| Want a completely fresh simulator | `xcrun simctl erase SIMULATOR_UDID` |
-| Want to reset every simulator | `xcrun simctl erase all` |
-| Only want to reinstall/reset your app | `xcrun simctl uninstall booted com.example.app` |
-| Simulator is frozen | `xcrun simctl shutdown all` |
-| Simulator app itself is frozen | `killall Simulator` |
-| Simulator service is broken | `killall -9 com.apple.CoreSimulator.CoreSimulatorService` |
-| Old/unavailable simulators are listed | `xcrun simctl delete unavailable` |
-| Metro cache seems stale | `npx react-native start --reset-cache` |
-| Native Xcode build cache is broken | `rm -rf ~/Library/Developer/Xcode/DerivedData/*` |
-| CocoaPods/native dependencies are broken | `cd ios && pod install` |
-| Don't know simulator UDID/name | `xcrun simctl list devices available` |
+| Situation                                | Command                                                   |
+| ---------------------------------------- | --------------------------------------------------------- |
+| Want a completely fresh simulator        | `xcrun simctl erase SIMULATOR_UDID`                       |
+| Want to reset every simulator            | `xcrun simctl erase all`                                  |
+| Only want to reinstall/reset your app    | `xcrun simctl uninstall booted com.example.app`           |
+| Simulator is frozen                      | `xcrun simctl shutdown all`                               |
+| Simulator app itself is frozen           | `killall Simulator`                                       |
+| Simulator service is broken              | `killall -9 com.apple.CoreSimulator.CoreSimulatorService` |
+| Old/unavailable simulators are listed    | `xcrun simctl delete unavailable`                         |
+| Metro cache seems stale                  | `npx react-native start --reset-cache`                    |
+| Native Xcode build cache is broken       | `rm -rf ~/Library/Developer/Xcode/DerivedData/*`          |
+| CocoaPods/native dependencies are broken | `cd ios && pod install`                                   |
+| Don't know simulator UDID/name           | `xcrun simctl list devices available`                     |
 
 ---
 

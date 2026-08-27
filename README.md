@@ -33,6 +33,8 @@ React Native development, debugging, cache cleanup, build errors, and useful com
 
 - [React Native Cache Cleanup](react-native/react-native-cache-cleanup.md)
 - [React Native Debugging Guide](react-native/react-native-debugging-guide.md)
+- [React Native Network and API Debugging](react-native/network-and-api-debugging.md)
+- [React Native Release Build and Signing Troubleshooting](react-native/release-build-and-signing-troubleshooting.md)
 - [Metro Bundler Commands](react-native/metro-bundler-commands.md)
 - [Common React Native Build Errors](react-native/common-build-errors.md)
 
@@ -99,6 +101,8 @@ developer-helpful-docs/
 ├── react-native/
 │   ├── react-native-cache-cleanup.md
 │   ├── react-native-debugging-guide.md
+│   ├── network-and-api-debugging.md
+│   ├── release-build-and-signing-troubleshooting.md
 │   ├── metro-bundler-commands.md
 │   └── common-build-errors.md
 │

@@ -85,7 +85,7 @@ Example:
 
 ```bash
 # Replace this package name with your actual app package.
-adb shell pm clear com.ebn
+adb shell pm clear com.example
 ```
 
 ### Use case
@@ -128,8 +128,8 @@ adb shell pm list packages
 Filter the list:
 
 ```bash
-# Replace "ebn" with part of your app/package name.
-adb shell pm list packages | grep ebn
+# Replace "example" with part of your app/package name.
+adb shell pm list packages | grep example
 ```
 
 ---
@@ -283,15 +283,15 @@ adb start-server
 
 # Which command should I use?
 
-| Situation | Command |
-|---|---|
-| Want a completely fresh emulator | `emulator -avd Pixel_9_Pro -wipe-data` |
-| Only want to reset your app | `adb shell pm clear com.example.app` |
-| Want to completely reinstall your app | `adb uninstall com.example.app` |
-| Emulator is frozen/stuck | `adb emu kill` then restart |
+| Situation                             | Command                                       |
+| ------------------------------------- | --------------------------------------------- |
+| Want a completely fresh emulator      | `emulator -avd Pixel_9_Pro -wipe-data`        |
+| Only want to reset your app           | `adb shell pm clear com.example.app`          |
+| Want to completely reinstall your app | `adb uninstall com.example.app`               |
+| Emulator is frozen/stuck              | `adb emu kill` then restart                   |
 | Snapshot/Quick Boot is causing issues | `emulator -avd Pixel_9_Pro -no-snapshot-load` |
-| ADB cannot detect emulator | `adb kill-server` + `adb start-server` |
-| Don't know emulator name | `emulator -list-avds` |
+| ADB cannot detect emulator            | `adb kill-server` + `adb start-server`        |
+| Don't know emulator name              | `emulator -list-avds`                         |
 
 ---
 
