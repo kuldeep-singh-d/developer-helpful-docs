@@ -35,6 +35,11 @@ React Native development, debugging, cache cleanup, build errors, and useful com
 - [React Native Debugging Guide](react-native/react-native-debugging-guide.md)
 - [React Native Network and API Debugging](react-native/network-and-api-debugging.md)
 - [React Native Release Build and Signing Troubleshooting](react-native/release-build-and-signing-troubleshooting.md)
+- [React Native Mobile Permissions Troubleshooting](react-native/mobile-permissions-troubleshooting.md)
+- [React Native Push Notification Troubleshooting](react-native/push-notification-troubleshooting.md)
+- [React Native Deep Linking Troubleshooting](react-native/deep-linking-troubleshooting.md)
+- [React Native App Performance and Memory Debugging](react-native/app-performance-and-memory-debugging.md)
+- [React Native Offline Mode and Network Retry Strategies](react-native/offline-mode-and-network-retry-strategies.md)
 - [Metro Bundler Commands](react-native/metro-bundler-commands.md)
 - [Common React Native Build Errors](react-native/common-build-errors.md)
 
@@ -103,6 +108,11 @@ developer-helpful-docs/
 │   ├── react-native-debugging-guide.md
 │   ├── network-and-api-debugging.md
 │   ├── release-build-and-signing-troubleshooting.md
+│   ├── mobile-permissions-troubleshooting.md
+│   ├── push-notification-troubleshooting.md
+│   ├── deep-linking-troubleshooting.md
+│   ├── app-performance-and-memory-debugging.md
+│   ├── offline-mode-and-network-retry-strategies.md
 │   ├── metro-bundler-commands.md
 │   └── common-build-errors.md
 │
