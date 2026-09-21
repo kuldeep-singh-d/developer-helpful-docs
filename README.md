@@ -40,6 +40,16 @@ React Native development, debugging, cache cleanup, build errors, and useful com
 - [React Native Deep Linking Troubleshooting](react-native/deep-linking-troubleshooting.md)
 - [React Native App Performance and Memory Debugging](react-native/app-performance-and-memory-debugging.md)
 - [React Native Offline Mode and Network Retry Strategies](react-native/offline-mode-and-network-retry-strategies.md)
+- [React Native Device and OS Fragmentation Testing](react-native/device-and-os-fragmentation-testing.md)
+- [React Native App Size and Battery Optimization](react-native/app-size-and-battery-optimization.md)
+- [React Native Mobile Security and Sensitive Data Handling](react-native/mobile-security-and-sensitive-data-handling.md)
+- [React Native App Store Submission and Release Management](react-native/app-store-submission-and-release-management.md)
+- [React Native Crash Reporting and Symbolication](react-native/crash-reporting-and-symbolication.md)
+- [React Native Authentication and Session Troubleshooting](react-native/authentication-and-session-troubleshooting.md)
+- [React Native Native Module and Autolinking Troubleshooting](react-native/native-module-and-autolinking-troubleshooting.md)
+- [React Native Local Storage and Database Migrations](react-native/local-storage-and-database-migrations.md)
+- [React Native Mobile Testing and CI Strategy](react-native/mobile-testing-and-ci-strategy.md)
+- [React Native Accessibility and Localization Testing](react-native/accessibility-and-localization-testing.md)
 - [Metro Bundler Commands](react-native/metro-bundler-commands.md)
 - [Common React Native Build Errors](react-native/common-build-errors.md)
 
@@ -113,6 +123,16 @@ developer-helpful-docs/
 │   ├── deep-linking-troubleshooting.md
 │   ├── app-performance-and-memory-debugging.md
 │   ├── offline-mode-and-network-retry-strategies.md
+│   ├── device-and-os-fragmentation-testing.md
+│   ├── app-size-and-battery-optimization.md
+│   ├── mobile-security-and-sensitive-data-handling.md
+│   ├── app-store-submission-and-release-management.md
+│   ├── crash-reporting-and-symbolication.md
+│   ├── authentication-and-session-troubleshooting.md
+│   ├── native-module-and-autolinking-troubleshooting.md
+│   ├── local-storage-and-database-migrations.md
+│   ├── mobile-testing-and-ci-strategy.md
+│   ├── accessibility-and-localization-testing.md
 │   ├── metro-bundler-commands.md
 │   └── common-build-errors.md
 │
